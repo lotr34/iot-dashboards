@@ -2,7 +2,6 @@ import React from 'react';
 import { HiX } from 'react-icons/hi';
 import { links } from '../data';
 import { useGlobalContext } from '../context';
-import { Avatar } from 'antd';
 import logo from '../assets/c.png'
 
 const Sidebar = () => {
@@ -22,7 +21,7 @@ const Sidebar = () => {
 					<HiX className="w-5 h-5" />
 				</button>
 				<div className='flex items-center'>
-				<img src={logo} className='h-10'/>
+				<img alt='logo' src={logo} className='h-10'/>
 				<h1 className='text-xl ml-4'>Control<span className='text-red-600'>ix</span></h1>
 				</div>
 				<div className="flex flex-col mt-6  justify-between flex-1">
