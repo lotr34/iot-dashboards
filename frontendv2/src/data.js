@@ -6,42 +6,61 @@ import {
 	FaTwitter,
 	FaSketch,
 	FaHome,
-	FaUserFriends,
-	FaFolderOpen,
-	FaCalendarAlt,
 } from 'react-icons/fa';
 
-import { HiDocument } from 'react-icons/hi';
+import { FiMonitor, FiSettings, FiBell, FiLogOut } from "react-icons/fi";
+import { HiChip } from "react-icons/hi";
+import { TbRouter } from "react-icons/tb";
+import { BsQuestionLg } from "react-icons/bs";
+
 export const links = [
 	{
 		id: 1,
-		url: '/color-shade-generator',
+		url: '/',
 		text: 'home',
 		icon: <FaHome className="w-5 h-5" />,
 	},
 	{
 		id: 2,
-		url: '/grocery-bud',
-		text: 'team',
-		icon: <FaUserFriends className="w-5 h-5" />,
+		url: '/dashboards',
+		text: 'dashboards',
+		icon: <FiMonitor className="w-5 h-5" />,
 	},
 	{
 		id: 3,
-		url: '/navbar',
-		text: 'projects',
-		icon: <FaFolderOpen className="w-5 h-5" />,
+		url: '/devices',
+		text: 'devices',
+		icon: <HiChip className="w-5 h-5" />,
 	},
 	{
 		id: 4,
-		url: '/sidebar',
-		text: 'calendar',
-		icon: <FaCalendarAlt className="w-5 h-5" />,
+		url: '/gateways',
+		text: 'gateways',
+		icon: <TbRouter className="w-5 h-5" />,
 	},
 	{
 		id: 5,
-		url: '/sidebar',
-		text: 'documents',
-		icon: <HiDocument className="w-5 h-5" />,
+		url: '/help',
+		text: 'help',
+		icon: <BsQuestionLg className="w-5 h-5" />,
+	},
+	{
+		id: 6,
+		url: '/settings',
+		text: 'settings',
+		icon: <FiSettings className="w-5 h-5" />,
+	},
+	{
+		id: 7,
+		url: '/alerts',
+		text: 'alerts',
+		icon: <FiBell className="w-5 h-5" />,
+	},
+	{
+		id: 8,
+		url: '/logout',
+		text: 'logout',
+		icon: <FiLogOut className="w-5 h-5" />,
 	},
 ];
 
