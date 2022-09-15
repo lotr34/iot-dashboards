@@ -15,49 +15,49 @@ import { BsQuestionLg } from "react-icons/bs";
 
 export const links = [
 	{
-		id: 1,
+		id: 0,
 		url: '/',
 		text: 'home',
 		icon: <FaHome className="w-5 h-5" />,
 	},
 	{
-		id: 2,
+		id: 1,
 		url: '/dashboards',
 		text: 'dashboards',
 		icon: <FiMonitor className="w-5 h-5" />,
 	},
 	{
-		id: 3,
+		id: 2,
 		url: '/devices',
 		text: 'devices',
 		icon: <HiChip className="w-5 h-5" />,
 	},
 	{
-		id: 4,
+		id: 3,
 		url: '/gateways',
 		text: 'gateways',
 		icon: <TbRouter className="w-5 h-5" />,
 	},
 	{
-		id: 5,
+		id: 4,
 		url: '/help',
 		text: 'help',
 		icon: <BsQuestionLg className="w-5 h-5" />,
 	},
 	{
-		id: 6,
+		id: 5,
 		url: '/settings',
 		text: 'settings',
 		icon: <FiSettings className="w-5 h-5" />,
 	},
 	{
-		id: 7,
+		id: 6,
 		url: '/alerts',
 		text: 'alerts',
 		icon: <FiBell className="w-5 h-5" />,
 	},
 	{
-		id: 8,
+		id: 7,
 		url: '/logout',
 		text: 'logout',
 		icon: <FiLogOut className="w-5 h-5" />,
