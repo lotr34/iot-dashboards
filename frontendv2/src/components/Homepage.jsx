@@ -191,6 +191,9 @@ const Homepage = () => {
           onViewportChange={setViewport}
           interactiveLayerIds={[devicesClusterLayer.id]}
           ref={mapRef}
+          onStyleLoad={(map) => {
+            map.addImage('https://commons.wikimedia.org/wiki/Category:Map_pointers#/media/File:Marker_location.png')
+          }}
         >
           <Source
           id="devices"

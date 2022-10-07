@@ -1,5 +1,3 @@
-  import icon from '../assets/c.png'
-  
   export const devicesClusterLayer = {
     id: 'clusters',
     type: 'circle',
@@ -30,8 +28,8 @@
     filter: ['!', ['has', 'point_count']],
     layout: {
       'symbol-placement': 'point',
-      'icon-image': 'marker',
-      'icon-size': 2,
+      'icon-image': 'mapPin-4',
+      'icon-size': 1,
       'icon-anchor': 'center',
       'icon-allow-overlap': true,
     }
@@ -43,18 +41,18 @@
         'type': 'Features',
         'geometry': {
           'type': 'Point',
-          'coordinates': [28.8646, 41.0685]
+          'coordinates': [28.8746, 41.0685]
         },
         'properties': {
           'title': 'Mapbox',
-          'description': 'Washington, D.C.'
+          'description': 'Fırfıl cok fırfıl'
         }
       },
       {
         'type': 'Feature',
         'geometry': {
           'type': 'Point',
-          'coordinates': [28.9646, 41.1685]
+          'coordinates': [28.8646, 41.1685]
         },
         'properties': {
           'title': 'Mapbox',
@@ -65,7 +63,7 @@
         'type': 'Feature',
         'geometry': {
           'type': 'Point',
-          'coordinates': [28.9746, 40.8685]
+          'coordinates': [28.8746, 41.8985]
         },
         'properties': {
           'title': 'Mapbox',
@@ -75,6 +73,8 @@
     ]
   };
 
+
+  
 // https://docs.mapbox.com/mapbox-gl-js/assets/earthquakes.geojson
   export const gateways = {
     'features': [
